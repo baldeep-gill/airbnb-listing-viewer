@@ -1,0 +1,71 @@
+#topbar {
+    -fx-padding: 2;
+    -fx-spacing: 6;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-color: black;
+}
+
+#navigation {
+    -fx-border-style: solid hidden hidden hidden;
+    -fx-border-color: black;
+}
+
+#mapPane {
+    -fx-alignment: center;
+    -fx-hgap: 20;
+    -fx-vgap: 20;    
+}
+
+#mapButton {
+     -fx-text-fill: white;
+     -fx-effect: dropshadow(gaussian, grey , 10, 0.0, 2, 3);
+     -fx-font-size: 20;
+}
+
+#mapButton:hover {
+     -fx-text-fill: black;
+}
+
+#statsPane {
+    -fx-padding: 10;
+    -fx-hgap: 0;
+    -fx-vgap: 6;  
+    -fx-background-color:lightgray;
+    -fx-grid-lines-visible: false;
+}
+
+#panes {
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+    -fx-border-color: #bdbdbd
+    
+}
+
+#statLabel {
+    -fx-font-weight: 500;
+    -fx-font-family: "Verdana", "Helvetica", "Arial";
+    -fx-font-size: 20px;
+    -fx-padding: 40;
+}
+
+#statTitleLabel {
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana", "Helvetica", "Arial";
+    -fx-font-size: 14px;
+    -fx-padding: 40;
+}
+
+#statButton {
+    -fx-padding: 12;
+    -fx-spacing: 12;
+    -fx-pref-width: 50px;
+    -fx-pref-height: 320px;
+}
+
+#table {
+    -fx-font-size: 18px;
+}
+
+.table-view .column-header:hover{
+    -fx-background-color:lightgray;
+}
